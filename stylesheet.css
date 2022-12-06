@@ -5,3 +5,7 @@ table{
     width:500px;
     height: 200px;;
 }
+label   {
+    display: inline-block;
+    width: 150px;
+}
