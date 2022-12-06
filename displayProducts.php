@@ -8,12 +8,11 @@
 </head>
 <body>
     <table>
-        <thead>
+        <tr>
             <th>Product</th>
             <th>Price</th>
             <th>Quantity</th>
-        </thead>
-        <tbody>
+</tr>
             <?php
 
             require_once("dbinfo.php");
@@ -45,7 +44,6 @@
             }
             
             ?>
-        </tbody>
     </table>
 </body>
 </html>
