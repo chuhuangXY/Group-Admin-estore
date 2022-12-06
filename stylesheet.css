@@ -9,3 +9,6 @@ table{
     display: inline-block;
     width: 150px;
 }
+#error_msg  {
+    color: red;
+}
