@@ -25,11 +25,16 @@
                 echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
                 exit();
             };
-
+            if(isset($_GET['id'])){
+                $sql = "DELETE FROM product_info WHERE id='$_GET[id]'";
+                $result = $mysqli->query($sql);
+                header('Location: displayProducts.php');
+            }
             $sql = "SELECT * FROM product_info";
             $result = $mysqli->query($sql);
             if($result){
                 while($record = $result->fetch_row()) {
+                    $id = $record[0];
                     $name = $record[1];
                     $price = $record[2];
                     $quantity= $record[3];
@@ -38,6 +43,9 @@
                     <td>$name</td>
                     <td>$$price</td>
                     <td>$quantity</td>
+                    <td><button class='delete'><a href='displayProducts.php?id=$id'>Delete</a></button>
+                    <button class='delete'><a href='displayProducts.php?id=$id'>Edit</a></button>
+                    </td>
                     </tr>
 
                 ";
