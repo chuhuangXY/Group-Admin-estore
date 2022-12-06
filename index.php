@@ -34,7 +34,7 @@ header('Location: displayProducts.php');
         <label for="pname">Product Name:</label>
         <input type="text" id='pname' name='pname'>
         <label for="product-name">Price:</label>
-        <input type="text" id='price' name='price'>
+        <input type="number" id='price' name='price'>
         <label for="product-name">Quantity:</label>
         <input type="number" id='quantity' name='quantity'>
         <button>Submit</button>

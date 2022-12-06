@@ -30,9 +30,9 @@
             $result = $mysqli->query($sql);
             if($result){
                 while($record = $result->fetch_row()) {
-                    $name = $record[0];
-                    $price= $record[1];
-                    $quantity = $record[2];
+                    $name = $record[1];
+                    $price = $record[2];
+                    $quantity= $record[3];
                     echo"
                     <tr>
                     <td>$name</td>
