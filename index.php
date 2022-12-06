@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<<<<<<< HEAD
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
@@ -12,9 +11,6 @@
     <h2>Home</h2>
     <nav>
         <ul>
-            <!-- <li>
-                <a href="index.php"> Home Page</a>
-            </li> -->
             <li>
                 <a href="Add_product.php">Add Product Page</a>
             </li>
