@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli("localhost","root","123","fooddelivery");
+    $mysqli = new mysqli("localhost","root","","fooddelivery");
 
     if($mysqli->connect_errno)
     {
