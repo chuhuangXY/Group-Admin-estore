@@ -57,6 +57,9 @@
                     <td>$name</td>
                     <td>$$price</td>
                     <td>$quantity</td>
+                    <td><button class='delete'><a href='displayProducts.php?id=$id'>Delete</a></button>
+                    <button class='edit'><a href='update.php?id=$id&name=$name&price=$price&quantity=$quantity'>Edit</a></button>
+                    </td>
                     </tr>
 
                 ";
