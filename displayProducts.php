@@ -34,9 +34,11 @@
                     $price= $record[1];
                     $quantity = $record[2];
                     echo"
+                    <tr>
                     <td>$name</td>
                     <td>$price</td>
                     <td>$quantity</td>
+                    </tr>
 
                 ";
                 }
