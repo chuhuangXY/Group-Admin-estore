@@ -16,7 +16,12 @@
             </li>
         </ul>
     </nav>
-        Welcome to EStore!
+        <h2>
+            Welcome to EStore!
+            <br>
+            These are the products in store now.
+            <br>
+        </h2>
         <table>
         <tr>
             <th>Product</th>
