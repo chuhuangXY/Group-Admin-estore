@@ -23,13 +23,13 @@ if ($mysqli -> connect_errno) {
 ?>
 <h2>Edit Product</h2>
     <form action="Add_product.php" method='post'>
-        <label for="pname">Product Name:</label>
+        <label for="pname" class="label">Product Name:</label>
         <input type="text" id='pname' name='pname' value='<?php echo $_GET['name']?>'>
         <br>
-        <label for="product-name">Price:</label>
+        <label for="product-name" class="label">Price:</label>
         <input type="number" id='price' name='price' value='<?php echo $_GET['price']?>'>
         <br>
-        <label for="product-name">Quantity:</label>
+        <label for="product-name" class="label">Quantity:</label>
         <input type="number" id='quantity' name='quantity' value='<?php echo $_GET['quantity']?>'>
         <br>
         <button>Submit</button>

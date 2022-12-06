@@ -9,13 +9,13 @@
 <body>
     <h2>Add Product</h2>
     <form action="index.php" method='post'>
-        <label for="pname">Product Name:</label>
+        <label for="pname" class="label">Product Name:</label>
         <input type="text" id='pname' name='pname'>
         <br>
-        <label for="product-name">Price:</label>
+        <label for="product-name" class="label">Price:</label>
         <input type="number" id='price' name='price'>
         <br>
-        <label for="product-name">Quantity:</label>
+        <label for="product-name" class="label">Quantity:</label>
         <input type="number" id='quantity' name='quantity'>
         <br>
         <button>Submit</button>
