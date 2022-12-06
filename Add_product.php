@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Add Product</h2>
-    <form action="Add_product.php" method='post'>
+    <form action="Add_process.php" method='post'>
         <label for="pname">Product Name:</label>
         <input type="text" id='pname' name='pname'>
         <br>
