@@ -10,10 +10,13 @@
     <form action="index.php" method='post'>
         <label for="pname">Product Name:</label>
         <input type="text" id='pname' name='pname'>
+        <br>
         <label for="product-name">Price:</label>
         <input type="number" id='price' name='price'>
+        <br>
         <label for="product-name">Quantity:</label>
         <input type="number" id='quantity' name='quantity'>
+        <br>
         <button>Submit</button>
     </form>
 </body>
