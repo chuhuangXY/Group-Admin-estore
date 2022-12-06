@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.php"> Home Page</a>
+            </li>
+            <li>
+                <a href="Add_product.php">Add Product Page</a>
+            </li>
+        </ul>
+    </nav>
     <h2>Add Product</h2>
-    <form action="Add_process.php" method='post'>
+    <form action="add_process.php" method='post'>
         <label for="pname">Product Name:</label>
         <input type="text" id='pname' name='pname'>
         <br>
