@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-top: 0;
+}
 table,td,tr,th{
     border:1px solid black;
 }
@@ -8,4 +15,29 @@ table{
 .label   {
     display: inline-block;
     width: 150px;
+}
+
+
+a{
+    
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: blanchedalmond;
+    color: black;
+    
+}
+a:hover{
+    background-color: coral;
+}
+
+li{
+    list-style-type: none;
+    
+    
+}
+
+ul{
+    padding-left: 10px;
 }

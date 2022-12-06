@@ -1,6 +1,6 @@
 <?php
 $hostname="localhost";
 $dbUser="root";
-$dbPassword=""; //YOUR PASSWORD!
+$dbPassword="123"; //YOUR PASSWORD!
 $db="product";
 ?>
