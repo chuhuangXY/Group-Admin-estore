@@ -13,9 +13,6 @@
             <li>
                 <a href="index.php"> Home Page</a>
             </li>
-            <li>
-                <a href="Add_product.php">Add Product Page</a>
-            </li>
         </ul>
     </nav>
     <h2>Add Product</h2>
