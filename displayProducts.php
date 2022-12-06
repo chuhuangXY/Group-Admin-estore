@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <h2>All Products</h2>
     <table>
         <tr>
             <th>Product</th>

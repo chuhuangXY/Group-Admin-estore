@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>Add Product</h2>
     <form action="index.php" method='post'>
         <label for="pname">Product Name:</label>
         <input type="text" id='pname' name='pname'>

@@ -21,6 +21,7 @@ if ($mysqli -> connect_errno) {
 
 
 ?>
+<h2>Edit Product</h2>
     <form action="Add_product.php" method='post'>
         <label for="pname">Product Name:</label>
         <input type="text" id='pname' name='pname' value='<?php echo $_GET['name']?>'>
